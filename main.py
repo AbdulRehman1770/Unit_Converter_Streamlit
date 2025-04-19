@@ -35,7 +35,7 @@ def converts_unit(category, value, unit):
         
 if category == "Length":
     unit = st.selectbox("Select Conversation", ["Kilometers to Miles", "Miles to Kilometers"])
-elif category == "Weigth":
+elif category == "Weight":
     unit = st.selectbox("Select Conversation", ["Kilograms to Pounds", "Pounds to Kilograms"])
 elif category == "Time":
     unit = st.selectbox("Select Conversation", ["Second to Minutes", "Minutes to Seconds", "Hour to Minutes", "Minutes to Hour", "Hour to Days", "Days to Hour"])
